@@ -1,0 +1,19 @@
+textarea::placeholder {
+  @apply whitespace-nowrap;
+}
+
+.input-style {
+  @apply p-xs pr-xl4 w-full resize-y overflow-y-auto outline-none cursor-pointer hover:bg-bgHoverGrey hover:border-borderActive border-t-1 border-solid border-borderDefault focus:border-borderDefault focus:shadow-btFocus;
+}
+
+.input-style-disabled {
+  @apply p-xs pr-xl4 w-full outline-none border-t-1 border-solid border-borderDefault leading-none resize-none;
+}
+
+.input-style::-webkit-resizer {
+  @apply outline-none;
+}
+
+.icon-style {
+  @apply absolute right-xs top-[45%] transform -translate-y-[50%];
+}

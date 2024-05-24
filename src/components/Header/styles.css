@@ -1,0 +1,15 @@
+.header-wrapper {
+  @apply sticky flex gap-xs2 top-[0] left-[0] z-20 items-center mx-auto py-xs2 px-m w-screen bg-bgBrandDark;
+}
+
+.logo-wrapper {
+  @apply w-xl h-xl flex justify-center;
+}
+
+.title {
+  @apply font-500 text-heading4 text-textContrast;
+}
+
+.button-wrapper:hover .description {
+  display: block;
+}

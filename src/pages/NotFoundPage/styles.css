@@ -1,0 +1,11 @@
+.wrapper {
+  @apply flex flex-col justify-center items-center gap-sPlus mx-auto pb-l h-screen w-full;
+}
+
+.image {
+  @apply w-1/2 mb-xs2;
+}
+
+.title {
+  @apply mb-sPlus px-sPlus font-600 text-body text-center text-textBrand;
+}
